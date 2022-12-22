@@ -32,3 +32,9 @@
  - any: [ './**/*.md' ]
 "github-actions":
  - any: [ '.github/workflows/*.yml' ]
+"Credfeto.Random":
+ - any: [ 'src/Credfeto.Random/**/*' ]
+"Interfaces":
+ - any: [ 'src/Credfeto.Random.Interfaces/**/*' ]
+"Tests":
+ - any: [ 'src/Credfeto.Random.Tests/**/*' ]
