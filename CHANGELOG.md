@@ -7,9 +7,9 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 
 ## [Unreleased]
 ### Added
+- Basic random number generator and random number source
 ### Fixed
 ### Changed
-- FF-3881 - Updated DotNet SDK to 7.0.101
 ### Removed
 ### Deployment Changes
 
