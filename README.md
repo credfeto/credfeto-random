@@ -1,5 +1,6 @@
-# cs-template
-C# Template
+# credfeto-random
+
+Mockable random number and random byte generator
 
 ## Changelog
 

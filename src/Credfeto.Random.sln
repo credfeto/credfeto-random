@@ -9,8 +9,31 @@ ProjectSection(SolutionItems) = preProject
 	global.json = global.json
 	..\CHANGELOG.md = ..\CHANGELOG.md
 	..\README.md = ..\README.md
-	FunFair.props = FunFair.props
 EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Random.Interfaces", "Credfeto.Random.Interfaces\Credfeto.Random.Interfaces.csproj", "{19C34C7B-B8AA-4358-9285-D549EB49AE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Random", "Credfeto.Random\Credfeto.Random.csproj", "{889DBFC8-FB4E-48DF-86B4-980C879A1CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Random.Tests", "Credfeto.Random.Tests\Credfeto.Random.Tests.csproj", "{4BD2A769-EEFA-40D5-869E-F0EA355C7A80}"
+EndProject
 Global
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C34C7B-B8AA-4358-9285-D549EB49AE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C34C7B-B8AA-4358-9285-D549EB49AE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C34C7B-B8AA-4358-9285-D549EB49AE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C34C7B-B8AA-4358-9285-D549EB49AE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889DBFC8-FB4E-48DF-86B4-980C879A1CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889DBFC8-FB4E-48DF-86B4-980C879A1CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889DBFC8-FB4E-48DF-86B4-980C879A1CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889DBFC8-FB4E-48DF-86B4-980C879A1CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD2A769-EEFA-40D5-869E-F0EA355C7A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD2A769-EEFA-40D5-869E-F0EA355C7A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD2A769-EEFA-40D5-869E-F0EA355C7A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD2A769-EEFA-40D5-869E-F0EA355C7A80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
 EndGlobal
