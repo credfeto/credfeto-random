@@ -37,9 +37,13 @@ runs:
   - name: Enable dotnet tools
     shell: bash
     run: |
-      [ -f .config/dotnet-tools.json ] && dotnet tool restore --local
       [ ! -f .config/dotnet-tools.json ] && dotnet new tool-manifest
+      dotnet tool restore || true
+
     env:
+      DOTNET_ROOT: "${{github.workspace}}/.dotnet"
+      DOTNET_INSTALL_DIR: "${{github.workspace}}/.dotnet"
+      DOTNET_MULTILEVEL_LOOKUP: false
       DOTNET_NOLOGO: "true"
       DOTNET_PRINT_TELEMETRY_MESSAGE: "false"
       DOTNET_ReadyToRun: "0"
@@ -50,6 +54,9 @@ runs:
     shell: bash
     run: dotnet tool install --local FunFair.BuildVersion
     env:
+      DOTNET_ROOT: "${{github.workspace}}/.dotnet"
+      DOTNET_INSTALL_DIR: "${{github.workspace}}/.dotnet"
+      DOTNET_MULTILEVEL_LOOKUP: false
       DOTNET_NOLOGO: "true"
       DOTNET_PRINT_TELEMETRY_MESSAGE: "false"
       DOTNET_ReadyToRun: "0"
@@ -60,6 +67,9 @@ runs:
     shell: bash
     run: dotnet tool install --local Credfeto.Changelog.Cmd
     env:
+      DOTNET_ROOT: "${{github.workspace}}/.dotnet"
+      DOTNET_INSTALL_DIR: "${{github.workspace}}/.dotnet"
+      DOTNET_MULTILEVEL_LOOKUP: false
       DOTNET_NOLOGO: "true"
       DOTNET_PRINT_TELEMETRY_MESSAGE: "false"
       DOTNET_ReadyToRun: "0"
