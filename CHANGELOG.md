@@ -10,8 +10,8 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - Dependencies - Updated SonarAnalyzer.CSharp to 8.55.0.65544
-- Dependencies - Updated Meziantou.Analyzer to 2.0.32
 - SDK - Updated DotNet SDK to 7.0.203
+- Dependencies - Updated Meziantou.Analyzer to 2.0.34
 ### Removed
 ### Deployment Changes
 
