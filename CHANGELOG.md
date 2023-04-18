@@ -9,10 +9,10 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated SonarAnalyzer.CSharp to 8.55.0.65544
 - SDK - Updated DotNet SDK to 7.0.203
 - Dependencies - Updated Meziantou.Analyzer to 2.0.34
 - Dependencies - Updated FunFair.Test.Common to 6.0.29.1
+- Dependencies - Updated SonarAnalyzer.CSharp to 8.56.0.67649
 ### Removed
 ### Deployment Changes
 
