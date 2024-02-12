@@ -10,6 +10,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - Dependencies - Updated Meziantou.Analyzer to 2.0.141
+- Dependencies - Updated NSubstitute.Analyzers.CSharp to 1.0.17
 ### Removed
 ### Deployment Changes
 
