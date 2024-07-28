@@ -10,7 +10,6 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - SDK - Updated DotNet SDK to 8.0.204
-- Dependencies - Updated FunFair.Test.Common to 6.1.49.427
 - Dependencies - Updated FunFair.CodeAnalysis to 7.0.18.436
 - Dependencies - Updated Meziantou.Analyzer to 2.0.162
 - Dependencies - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.10.48
@@ -20,6 +19,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated xunit.analyzers to 1.15.0
 - Dependencies - Updated xunit.runner.visualstudio to 2.8.2
 - Dependencies - Updated xunit to 2.9.0
+- Dependencies - Updated FunFair.Test.Common to 6.1.62.556
 ### Removed
 ### Deployment Changes
 
