@@ -7,7 +7,10 @@ public sealed class RandomSource : IRandomSource
 {
     public void Generate(in Span<byte> buffer)
     {
-        using (System.Security.Cryptography.RandomNumberGenerator randomNumberGenerator = System.Security.Cryptography.RandomNumberGenerator.Create())
+        using (
+            System.Security.Cryptography.RandomNumberGenerator randomNumberGenerator =
+                System.Security.Cryptography.RandomNumberGenerator.Create()
+        )
         {
             randomNumberGenerator.GetBytes(buffer);
         }
