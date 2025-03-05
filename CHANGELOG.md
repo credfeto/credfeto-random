@@ -9,12 +9,12 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated FunFair.CodeAnalysis to 7.0.68.928
 - Dependencies - Updated Meziantou.Analyzer to 2.0.188
 - Dependencies - Updated Roslynator.Analyzers to 4.13.1
 - Dependencies - Updated SonarAnalyzer.CSharp to 10.7.0.110445
 - Dependencies - Updated FunFair.Test.Common to 6.1.261.1171
 - Dependencies - Updated Credfeto.Enumeration to 1.2.67.955
+- Dependencies - Updated FunFair.CodeAnalysis to 7.0.69.956
 ### Removed
 ### Deployment Changes
 
