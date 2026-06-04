@@ -11,11 +11,11 @@
 "Config Change":
  - any: [ 'src/**/*.json', '!src/global.json' ]
 "credfeto-random":
- - any: [ 'src/$Credfeto.Random/**/*' ]
+ - any: [ 'src/Credfeto.Random/**/*' ]
 "credfeto-random-interfaces":
- - any: [ 'src/$Credfeto.Random.Interfaces/**/*' ]
+ - any: [ 'src/Credfeto.Random.Interfaces/**/*' ]
 "credfeto-random-tests":
- - any: [ 'src/$Credfeto.Random.Tests/**/*' ]
+ - any: [ 'src/Credfeto.Random.Tests/**/*' ]
 "dotnet":
  - any: [ 'src/**/*.csproj' ]
 "Editorconfig":
