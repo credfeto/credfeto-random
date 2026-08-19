@@ -14,6 +14,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 - Added missing trailing newline to csproj files
 ### Changed
+- SDK - Updated DotNet SDK to 10.0.400
 ### Deprecated
 ### Removed
 - Removed net9.0 target framework; the library now targets net10.0 only
