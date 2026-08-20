@@ -12,16 +12,21 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Security
 ### Added
 ### Fixed
-- Added missing trailing newline to csproj files
 ### Changed
-- SDK - Updated DotNet SDK to 10.0.400
 ### Deprecated
 ### Removed
-- Removed net9.0 target framework; the library now targets net10.0 only
 ### Deployment Changes
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.161] - 2026-08-20
+### Fixed
+- Added missing trailing newline to csproj files
+### Changed
+- SDK - Updated DotNet SDK to 10.0.400
+### Removed
+- Removed net9.0 target framework; the library now targets net10.0 only
+
 ## [1.0.160] - 2026-07-15
 ### Changed
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.7.2152
