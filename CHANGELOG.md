@@ -12,6 +12,15 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Security
 ### Added
 ### Fixed
+### Changed
+### Deprecated
+### Removed
+### Deployment Changes
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+## [1.0.163] - 2026-08-24
+### Fixed
 - Test project no longer fails to build due to conflicting AOT and non-AOT xunit v3 packages pulled in transitively by the FunFair.Test.Common 6.4.0.2617 upgrade
 ### Changed
 - Dependencies - Updated Credfeto.Enumeration to 1.2.152.2216
@@ -20,12 +29,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated SonarAnalyzer.CSharp to 10.33.0.1635
 - Dependencies - Updated FunFair.Test.Source.Generator to 6.4.0.2617
 - Dependencies - Updated FunFair.Test to 6.4.0.2617
-### Deprecated
-### Removed
-### Deployment Changes
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
+
 ## [1.0.162] - 2026-08-22
 ### Changed
 - Dependencies - Updated Credfeto.Enumeration to 1.2.151.2192
