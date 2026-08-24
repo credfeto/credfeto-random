@@ -12,6 +12,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Security
 ### Added
 ### Fixed
+- Test project no longer fails to build due to conflicting AOT and non-AOT xunit v3 packages pulled in transitively by the FunFair.Test.Common 6.4.0.2617 upgrade
 ### Changed
 - Dependencies - Updated Credfeto.Enumeration to 1.2.152.2216
 - Dependencies - Updated Meziantou.Analyzer to 3.0.177
