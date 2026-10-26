@@ -10,7 +10,7 @@
     <DebuggerSupport>true</DebuggerSupport>
     <Description>Random number generation.</Description>
     <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
-    <EnableMicrosoftExtensionsConfigurationBinderSourceGenerator>true</EnableMicrosoftExtensionsConfigurationBinderSourceGenerator>
+    <EnableConfigurationBindingGenerator>true</EnableConfigurationBindingGenerator>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <EnablePackageValidation>true</EnablePackageValidation>
     <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
