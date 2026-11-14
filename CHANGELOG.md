@@ -17,6 +17,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - SDK - Now targets .NET 11 (net11.0) with runtime async enabled for all projects, and removed the redundant Microsoft.Extensions.DependencyInjection.Abstractions package reference
 - SDK - Updated DotNet SDK to 11.0.100
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.25.2636
+- Dependencies - Updated Meziantou.Analyzer to 3.0.339
 ### Deprecated
 ### Removed
 ### Deployment Changes
